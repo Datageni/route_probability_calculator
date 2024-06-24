@@ -29,9 +29,9 @@ The `Prob_Functions` class calculates the transition probabilities between nodes
 - `prob_calculator(sequence)`:
   - For each node in `main_nodes`, calculates the probability that the node follows the given sequence.
   - Uses the formula:
-  \[
+$$
 \left( \text{next\_num} \mid \text{sequence} \right) = \frac{\text{next\_num\_count}}{\text{seq\_count}}
-\]
+$$
   - Prints the calculated probability.
 
 ### Help_Functions Class
