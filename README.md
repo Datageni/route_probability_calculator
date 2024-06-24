@@ -1,4 +1,4 @@
-## Explanation of the Code
+## Route Probability Calculator
 
 This Python script consists of three main classes: `Menus`, `Prob_Functions`, and `Help_Functions`. These classes facilitate user interaction, calculate transition probabilities between nodes, and provide menu display functions, respectively.
 
