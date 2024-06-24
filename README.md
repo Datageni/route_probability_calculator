@@ -55,9 +55,8 @@ The `Help_Functions` class provides utility functions for clearing the screen an
 
 3. **Calculating Probabilities**:
    - The `prob_calculator(sequence)` method uses the counts from `count_times` to compute the transition probability using:
-     \[
-     P(\text{{next\_num}} \mid \text{{sequence}}) = \frac{{\text{{next\_num\_count}}}}{{\text{{seq\_count}}}}
-     \]
+  $$P(\text{{nextnum}} \mid \text{{sequence}}) = \frac{{\text{{nextnum\_count}}}}{{\text{{seqcount}}}}$$
+
    - If `seq_count` is 0, the probability is set to 0 to avoid division by zero.
    - The method prints the calculated probability for each node in `main_nodes`.
 
