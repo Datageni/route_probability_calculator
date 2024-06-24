@@ -1,6 +1,3 @@
-Here is the markdown code explaining the provided Python script, including the mathematical formulas used:
-
-```markdown
 ## Explanation of the Code
 
 This Python script consists of three main classes: `Menus`, `Prob_Functions`, and `Help_Functions`. These classes facilitate user interaction, calculate transition probabilities between nodes, and provide menu display functions, respectively.
@@ -71,5 +68,3 @@ When the script is executed:
 3. The user can choose to enter a route, which triggers the `route_menu()` method.
 4. The entered route is validated, and transition probabilities are calculated and displayed.
 
-This script allows users to understand the likelihood of transitioning from a given sequence of nodes to other nodes, based on predefined routes.
-```
