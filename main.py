@@ -42,9 +42,9 @@ class Menus():
                          while True:
                                    add_option = input('Would you like to enter another node to the route? [Y/N]')
                                    if add_option.upper() == "Y":
-                                        try:
-                                             help_functions.clear_screen()
+                                        try:   
                                              new_node = int(input('Enter the new node: '))
+                                             help_functions.clear_screen()
                                              if new_node not in self.main_nodes:
                                                   print("The element is not on the main nodes.")
                                                   time.sleep(2)
