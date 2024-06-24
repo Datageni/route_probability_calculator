@@ -29,7 +29,9 @@ The `Prob_Functions` class calculates the transition probabilities between nodes
 - `prob_calculator(sequence)`:
   - For each node in `main_nodes`, calculates the probability that the node follows the given sequence.
   - Uses the formula:
-    $P(\text{{next\_num}} \mid \text{{sequence}}) = \frac{{\text{{next\_num\_count}}}}{{\text{{seq\_count}}}}$
+    \[
+    P(\text{{next\_num}} \mid \text{{sequence}}) = \frac{{\text{{next\_num\_count}}}}{{\text{{seq\_count}}}}
+    \]
   - Prints the calculated probability.
 
 ### Help_Functions Class
@@ -66,3 +68,4 @@ When the script is executed:
 3. The user can choose to enter a route, which triggers the `route_menu()` method.
 4. The entered route is validated, and transition probabilities are calculated and displayed.
 
+This script allows users to understand the likelihood of transitioning from a given sequence of nodes to other nodes, based on predefined routes.
