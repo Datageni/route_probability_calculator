@@ -44,6 +44,7 @@ class Menus():
                                    if add_option.upper() == "Y":
                                         try:
                                              new_node = int(input('Enter the new node: '))
+                                             help_functions.clear_screen()
                                              if new_node not in self.main_nodes:
                                                   print("The element is not on the main nodes.")
                                                   time.sleep(2)
